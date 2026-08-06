@@ -1,0 +1,500 @@
+{
+    "$schema":  "mtm-nav-map v1: views = left-nav entries of the RUNNING build (drive focus+space, never Select(); items hidden by features.json are absent, not broken); controls = per-view elements. Trust a control only if capturedVersion == appVersion; otherwise verify live or re-run discovery on that view. boundsHint = UIA screen px under windowPin (DPI-scaled; ordering hints, not click targets). MTM writes no [Nav] log line - verify nav via IsSelected only.",
+    "appVersion":  "1.0.0",
+    "generatedUtc":  "2026-08-06T19:03:22Z",
+    "windowPin":  {
+                      "x":  0,
+                      "y":  0,
+                      "w":  1500,
+                      "h":  1000
+                  },
+    "currentViewAtCapture":  "Settings",
+    "views":  [
+                  {
+                      "name":  "Terminals",
+                      "navUiaName":  "Terminals",
+                      "navOrder":  1,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         74,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  },
+                  {
+                      "name":  "Manager",
+                      "navUiaName":  "Manager",
+                      "navOrder":  2,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         114,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  },
+                  {
+                      "name":  "Guardian",
+                      "navUiaName":  "Guardian",
+                      "navOrder":  3,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         154,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  },
+                  {
+                      "name":  "Mappings",
+                      "navUiaName":  "Mappings",
+                      "navOrder":  4,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         194,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  },
+                  {
+                      "name":  "Cleanup",
+                      "navUiaName":  "Cleanup",
+                      "navOrder":  5,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         234,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  },
+                  {
+                      "name":  "Portfolio Artifacts",
+                      "navUiaName":  "Portfolio Artifacts",
+                      "navOrder":  6,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         274,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  },
+                  {
+                      "name":  "(version label)",
+                      "navUiaName":  "Avalonia.Controls.StackPanel",
+                      "navOrder":  7,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         861,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  false,
+                      "invoke":  "none",
+                      "notes":  "Name carried forward from previous map - locate by navOrder."
+                  },
+                  {
+                      "name":  "Settings",
+                      "navUiaName":  "Settings",
+                      "navOrder":  8,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         901,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  },
+                  {
+                      "name":  "Help",
+                      "navUiaName":  "Help",
+                      "navOrder":  9,
+                      "controlType":  "ListItem",
+                      "automationId":  "",
+                      "boundsHint":  [
+                                         7,
+                                         941,
+                                         222,
+                                         40
+                                     ],
+                      "isEnabled":  true,
+                      "invoke":  "focus+space",
+                      "notes":  ""
+                  }
+              ],
+    "controls":  [
+                     {
+                         "view":  "_chrome",
+                         "name":  "TogglePaneButton",
+                         "controlType":  "Button",
+                         "automationId":  "TogglePaneButton",
+                         "boundsHint":  [
+                                            8,
+                                            35,
+                                            220,
+                                            40
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "EULA",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            729,
+                                            1023,
+                                            51,
+                                            29
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "Legal Notice",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            897,
+                                            1023,
+                                            96,
+                                            29
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "Offer to switch profile after deploying",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            265,
+                                            710,
+                                            106,
+                                            44
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "toggle",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Nameless ToggleSwitch (ClassName=ToggleSwitch, empty UIA Name); name here = its same-row Text label. Locate/drive it via read-mtm-toggle.ps1 -LabelName, NOT by UIA Name."
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "Privacy Policy",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            788,
+                                            1023,
+                                            101,
+                                            29
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "Receive preview updates",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            265,
+                                            628,
+                                            106,
+                                            44
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "toggle",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Nameless ToggleSwitch (ClassName=ToggleSwitch, empty UIA Name); name here = its same-row Text label. Locate/drive it via read-mtm-toggle.ps1 -LabelName, NOT by UIA Name."
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "Reset to Defaults",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            265,
+                                            841,
+                                            129,
+                                            32
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "Start with Windows",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            265,
+                                            546,
+                                            106,
+                                            44
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "toggle",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Nameless ToggleSwitch (ClassName=ToggleSwitch, empty UIA Name); name here = its same-row Text label. Locate/drive it via read-mtm-toggle.ps1 -LabelName, NOT by UIA Name."
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "",
+                         "controlType":  "Button",
+                         "automationId":  "PART_DecreaseButton",
+                         "boundsHint":  [
+                                            379,
+                                            196,
+                                            32,
+                                            24
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  2,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "",
+                         "controlType":  "Button",
+                         "automationId":  "PART_IncreaseButton",
+                         "boundsHint":  [
+                                            343,
+                                            196,
+                                            32,
+                                            24
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  2,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "",
+                         "controlType":  "Button",
+                         "automationId":  "PART_LineUpButton",
+                         "boundsHint":  [
+                                            1466,
+                                            82,
+                                            14,
+                                            12
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "",
+                         "controlType":  "Button",
+                         "automationId":  "PART_LineDownButton",
+                         "boundsHint":  [
+                                            1466,
+                                            980,
+                                            14,
+                                            12
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "General",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            229,
+                                            32,
+                                            106,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Settings",
+                         "name":  "Logs",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            335,
+                                            32,
+                                            74,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Terminals",
+                         "name":  "?",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            1436,
+                                            98,
+                                            28,
+                                            28
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Terminals",
+                         "name":  "Profiles (5)",
+                         "controlType":  "Button",
+                         "automationId":  "ExpanderHeader",
+                         "boundsHint":  [
+                                            313,
+                                            204,
+                                            1139,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "toggle",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Supports TogglePattern (likely ToggleSwitch/toggle button) - drive with Toggle(), read ToggleState."
+                     },
+                     {
+                         "view":  "Terminals",
+                         "name":  "Remove",
+                         "controlType":  "Button",
+                         "automationId":  "PART_Button",
+                         "boundsHint":  [
+                                            1424,
+                                            163,
+                                            24,
+                                            24
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Terminals",
+                         "name":  "Remove Selected",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            257,
+                                            944,
+                                            130,
+                                            32
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Terminals",
+                         "name":  "Allowed Terminals",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            229,
+                                            32,
+                                            216,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Terminals",
+                         "name":  "Scanner",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            445,
+                                            32,
+                                            109,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     }
+                 ]
+}
