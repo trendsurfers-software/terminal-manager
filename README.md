@@ -1,4 +1,4 @@
-# TrendSurfers MT Manager
+# TrendSurfers Terminal Manager
 
 > A free Windows desktop app for managing your MetaTrader 5 terminals — find every terminal, turn your Expert Advisor `.set` files into ready-to-load chart profiles, and keep a full history of every deployment.
 
@@ -8,9 +8,9 @@
 
 ## What Is It?
 
-**TrendSurfers MT Manager** is a companion app for MetaTrader 5 traders who run one or more terminals. Instead of clicking through each MT5 install by hand, MT Manager gives you a single dashboard to find and manage your terminals, import folders of Expert Advisor `.set` files, and deploy them as ready-to-load chart profiles — with a full record of what was deployed, where, and when.
+**TrendSurfers Terminal Manager** is a companion app for MetaTrader 5 traders who run one or more terminals. Instead of clicking through each MT5 install by hand, Terminal Manager gives you a single dashboard to find and manage your terminals, import folders of Expert Advisor `.set` files, and deploy them as ready-to-load chart profiles — with a full record of what was deployed, where, and when.
 
-MT Manager is **completely free** to use.
+Terminal Manager is **completely free** to use.
 
 ---
 
@@ -54,7 +54,7 @@ MT Manager is **completely free** to use.
 - See terminal, profile, EA, symbol, timeframe, and the exact `.set` file it came from — for every deployment, every time.
 
 ### 🔄 Automatic Updates
-- MT Manager keeps itself current in the background — no manual downloads.
+- Terminal Manager keeps itself current in the background — no manual downloads.
 - Enable the preview channel in Settings for early access to new features before general release.
 
 ---
@@ -69,8 +69,8 @@ MT Manager is **completely free** to use.
 ## Installation
 
 1. Download the latest `TS.MTManager-win-Setup.exe` from [Releases](../../releases).
-2. Run the installer. MT Manager installs per-user and updates itself automatically.
-3. Launch **MT Manager** and add your first MetaTrader 5 terminal.
+2. Run the installer. Terminal Manager installs per-user and updates itself automatically.
+3. Launch **Terminal Manager** and add your first MetaTrader 5 terminal.
 
 ### Preview builds
 
@@ -92,7 +92,7 @@ Want early access to new features? In **Settings → Receive preview updates**, 
 
 ## License
 
-MT Manager is free to use. By downloading, installing, or using this software you agree to the [End User License Agreement](https://trendsurfers.io/eula-mtm/). If you do not accept the EULA, do not install or use the software.
+Terminal Manager is free to use. By downloading, installing, or using this software you agree to the [End User License Agreement](https://trendsurfers.io/eula-mtm/). If you do not accept the EULA, do not install or use the software.
 
 | Legal document | Link |
 |---------------|------|
@@ -107,7 +107,7 @@ MT Manager is free to use. By downloading, installing, or using this software yo
 
 ### Trademark Disclaimers
 
-**TrendSurfers MT Manager** is an independent product developed by **INFINITYDEV, S.L.** (NIF B-44974798, Plaça Jardí Enric Morera 2, Bajos, 17600 Figueres, Girona, Spain).
+**TrendSurfers Terminal Manager** is an independent product developed by **INFINITYDEV, S.L.** (NIF B-44974798, Plaça Jardí Enric Morera 2, Bajos, 17600 Figueres, Girona, Spain).
 
 INFINITYDEV, S.L. is **not** affiliated with, endorsed by, sponsored by, certified by, or otherwise connected to MetaQuotes Software Corp., MetaQuotes Ltd., or any of their affiliated entities. This product is not approved by MetaQuotes, and MetaQuotes provides no warranty, support, or representation regarding it.
 
@@ -115,10 +115,10 @@ INFINITYDEV, S.L. is **not** affiliated with, endorsed by, sponsored by, certifi
 
 ### Trading Risk Disclaimer
 
-Trading foreign exchange and derivatives carries a high level of risk and may not be suitable for all investors. Past performance is not indicative of future results. MT Manager is a terminal-management tool — it deploys Expert Advisor configurations to your own MetaTrader 5 terminals but does not place trades, connect to live broker accounts, or provide financial advice or trading signals.
+Trading foreign exchange and derivatives carries a high level of risk and may not be suitable for all investors. Past performance is not indicative of future results. Terminal Manager is a terminal-management tool — it deploys Expert Advisor configurations to your own MetaTrader 5 terminals but does not place trades, connect to live broker accounts, or provide financial advice or trading signals.
 
 ### Platform Dependency Notice
 
-MT Manager operates on your own MetaTrader 5 installations and depends on specific MT5 capabilities for its operation (including terminal detection, chart-profile formats, and `.set` file formats). MetaQuotes Software Corp. is an independent third party over which INFINITYDEV, S.L. has no control. MetaQuotes may, at any time, modify, restrict, deprecate, or remove any MT5 capability. Such changes may cause parts or all of this software to stop functioning. This does not constitute a defect in the software, and INFINITYDEV, S.L. assumes no responsibility for changes made by MetaQuotes or any other third-party platform.
+Terminal Manager operates on your own MetaTrader 5 installations and depends on specific MT5 capabilities for its operation (including terminal detection, chart-profile formats, and `.set` file formats). MetaQuotes Software Corp. is an independent third party over which INFINITYDEV, S.L. has no control. MetaQuotes may, at any time, modify, restrict, deprecate, or remove any MT5 capability. Such changes may cause parts or all of this software to stop functioning. This does not constitute a defect in the software, and INFINITYDEV, S.L. assumes no responsibility for changes made by MetaQuotes or any other third-party platform.
 
 &copy; 2024–2026 INFINITYDEV, S.L. All rights reserved.
