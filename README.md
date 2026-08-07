@@ -68,7 +68,7 @@ Terminal Manager is **completely free** to use.
 
 ## Installation
 
-1. Download the latest `TS.MTManager-win-Setup.exe` from [Releases](../../releases).
+1. Download the latest `TS.TerminalManager-win-Setup.exe` from [Releases](../../releases).
 2. Run the installer. Terminal Manager installs per-user and updates itself automatically.
 3. Launch **Terminal Manager** and add your first MetaTrader 5 terminal.
 
