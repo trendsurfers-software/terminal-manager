@@ -36,6 +36,11 @@ Terminal Manager is **completely free** to use.
   <br/><em>Deployment History — a full, traceable record of what was deployed, where, and when</em>
 </p>
 
+<p align="center">
+  <img src="pictures/settings.png" alt="Settings — scan depth, theme, startup, and preview updates" width="720"/>
+  <br/><em>Settings — scan depth, theme, start-with-Windows, and the preview-update channel</em>
+</p>
+
 ---
 
 ## Core Features
