@@ -1,14 +1,14 @@
 {
     "$schema":  "mtm-nav-map v1: views = left-nav entries of the RUNNING build (drive focus+space, never Select(); items hidden by features.json are absent, not broken); controls = per-view elements. Trust a control only if capturedVersion == appVersion; otherwise verify live or re-run discovery on that view. boundsHint = UIA screen px under windowPin (DPI-scaled; ordering hints, not click targets). MTM writes no [Nav] log line - verify nav via IsSelected only.",
     "appVersion":  "1.0.0",
-    "generatedUtc":  "2026-08-06T19:03:22Z",
+    "generatedUtc":  "2026-08-08T04:59:09Z",
     "windowPin":  {
                       "x":  0,
                       "y":  0,
                       "w":  1500,
                       "h":  1000
                   },
-    "currentViewAtCapture":  "Settings",
+    "currentViewAtCapture":  "Manager",
     "views":  [
                   {
                       "name":  "Terminals",
@@ -17,10 +17,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         74,
-                                         222,
-                                         40
+                                         11,
+                                         144,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -33,10 +33,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         114,
-                                         222,
-                                         40
+                                         11,
+                                         224,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -49,10 +49,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         154,
-                                         222,
-                                         40
+                                         11,
+                                         304,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -65,10 +65,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         194,
-                                         222,
-                                         40
+                                         11,
+                                         384,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -81,10 +81,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         234,
-                                         222,
-                                         40
+                                         11,
+                                         464,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -97,10 +97,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         274,
-                                         222,
-                                         40
+                                         11,
+                                         544,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -113,10 +113,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         861,
-                                         222,
-                                         40
+                                         11,
+                                         1725,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  false,
                       "invoke":  "none",
@@ -129,10 +129,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         901,
-                                         222,
-                                         40
+                                         11,
+                                         1805,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -145,10 +145,10 @@
                       "controlType":  "ListItem",
                       "automationId":  "",
                       "boundsHint":  [
-                                         7,
-                                         941,
-                                         222,
-                                         40
+                                         11,
+                                         1885,
+                                         444,
+                                         80
                                      ],
                       "isEnabled":  true,
                       "invoke":  "focus+space",
@@ -172,6 +172,227 @@
                          "instances":  1,
                          "capturedVersion":  "1.0.0",
                          "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "?",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            2899,
+                                            96,
+                                            56,
+                                            56
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Browse...",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            1865,
+                                            1891,
+                                            156,
+                                            64
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Clear All",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            2037,
+                                            1891,
+                                            152,
+                                            64
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "ColumnSettingsButton",
+                         "controlType":  "Button",
+                         "automationId":  "ColumnSettingsButton",
+                         "boundsHint":  [
+                                            1440,
+                                            196,
+                                            24,
+                                            24
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Deploy",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            2795,
+                                            1891,
+                                            136,
+                                            64
+                                        ],
+                         "isEnabled":  false,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Overall",
+                         "controlType":  "Button",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            623,
+                                            408,
+                                            104,
+                                            88
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "toggle",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Nameless ToggleSwitch (ClassName=ToggleSwitch, empty UIA Name); name here = its same-row Text label. Locate/drive it via read-mtm-toggle.ps1 -LabelName, NOT by UIA Name."
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Remove",
+                         "controlType":  "Button",
+                         "automationId":  "PART_Button",
+                         "boundsHint":  [
+                                            2867,
+                                            594,
+                                            48,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "TogglePaneButton",
+                         "controlType":  "Button",
+                         "automationId":  "TogglePaneButton",
+                         "boundsHint":  [
+                                            13,
+                                            66,
+                                            440,
+                                            80
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "invoke",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Add",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            320,
+                                            146,
+                                            68,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select-by-label",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Same classy-Name issue as \u0027View\u0027 above (Name=\u0027Avalonia.Controls.Grid\u0027) - locate via child Text label \u0027Add\u0027 then walk up to the TabItem ancestor. This is the .set-file import/deploy tab: drag-drop or Browse... opens a native \u0027Select .set files or a .tspa artifact\u0027 Open-file dialog (drive with the same AutomationId 1148/1+\u0027Open\u0027 technique as PM\u0027s drive-pm-file-dialog.ps1). Per-Row/Overall toggle plus Defaults EA/Symbol/Timeframe autocomplete boxes (AutomationId PART_TextBox, no adjacent Text label - locate by BoundingRectangle, not by label) apply to the imported row(s). Deploy button opens a \u0027Deploy Preview\u0027 confirmation dialog (lists CREATE/MODIFY file counts) then a \u0027Deploy Complete\u0027 dialog; if \u0027Offer to switch profile after deploying\u0027 is enabled in Settings, a further \u0027Switch active profile?\u0027 prompt appears after Done - has its own \u0027Switch\u0027/\u0027Not now\u0027 buttons. NOTE: after Deploy, two Buttons named \u0027Deploy\u0027 coexist in the tree (the disabled main one + a stale reference) - invoke-mtm-button.ps1 matches the FIRST by tree order which may be the disabled one; filter on IsEnabled=true when invoking post-deploy-preview."
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Backups",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            495,
+                                            146,
+                                            111,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select-by-label",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Same classy-Name issue as \u0027View\u0027/\u0027Add\u0027 (Name=\u0027Avalonia.Controls.Grid\u0027) - locate via child Text label \u0027Backups\u0027 then walk up to the TabItem ancestor. Content not yet explored beyond tab presence - new tab added by the 13fb7f9 \u0027rename to Terminal Manager; add terminal mode + broker, streaming scan, community links\u0027 feature commit, landed after the previous capture of this map."
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "History",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            1305,
+                                            288,
+                                            200,
+                                            96
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "Its DataGrid columns (Time/Terminal/Profile/EA/Symbol/TF/Set file/Broker) make it a GLOBAL deploy log, not scoped to the top Terminal/Profile selectors - it lists deploys across all terminals. After a Deploy, the grid does NOT auto-refresh; click the \u0027Refresh\u0027 button (top-right, next to an \u0027All\u0027 filter ComboBox) to see the new row."
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "Migrate",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            869,
+                                            288,
+                                            214,
+                                            96
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  ""
+                     },
+                     {
+                         "view":  "Manager",
+                         "name":  "View",
+                         "controlType":  "TabItem",
+                         "automationId":  "",
+                         "boundsHint":  [
+                                            245,
+                                            146,
+                                            75,
+                                            48
+                                        ],
+                         "isEnabled":  true,
+                         "invoke":  "select-by-label",
+                         "instances":  1,
+                         "capturedVersion":  "1.0.0",
+                         "notes":  "TabItem Name reports \u0027Avalonia.Controls.Grid\u0027 (classy - header content is a Grid wrapping the label TextBlock), NOT the visible text - select-mtm-tab.ps1\u0027s exact-Name match FAILS on this tab. Locate by finding the child ControlType.Text element whose Name equals the visible label (\u0027View\u0027), walk up via TreeWalker.ControlViewWalker to the nearest ancestor ControlType.TabItem, then call SelectionItemPattern.Select() on THAT ancestor. Same technique needed for \u0027Add\u0027 and \u0027Backups\u0027 below. discover-mtm-nav.ps1 does not yet resolve this pattern for TabItem (only for nameless ToggleSwitch Buttons via Resolve-ToggleLabel) so these 3 tabs must be hand-maintained until the script is extended."
                      },
                      {
                          "view":  "Settings",
