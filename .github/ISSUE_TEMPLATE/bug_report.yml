@@ -60,7 +60,7 @@ body:
     attributes:
       label: Log output (if available)
       description: |
-        Logs are stored in `%LOCALAPPDATA%\TrendSurfers\MT5Manager\logs\`.
+        Logs are stored in `%LOCALAPPDATA%\TrendSurfers\TerminalManager\logs\`.
         Paste the relevant section below (strip any personal data first).
       render: text
 

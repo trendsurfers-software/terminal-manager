@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Got an idea to make TrendSurfers MT Manager better? Describe it below.
+        Got an idea to make TrendSurfers Terminal Manager better? Describe it below.
 
   - type: textarea
     id: problem

@@ -62,7 +62,7 @@ body:
     attributes:
       label: Log file contents
       description: |
-        Logs are in `%LOCALAPPDATA%\TrendSurfers\MT5Manager\logs\`.
+        Logs are in `%LOCALAPPDATA%\TrendSurfers\TerminalManager\logs\`.
         Paste the tail of the log file from around the time of the crash.
       render: text
     validations:
