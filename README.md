@@ -1,129 +1,120 @@
-# TrendSurfers Terminal Manager
+# **Terminal Manager**
 
-> A free Windows desktop app for managing your MetaTrader 5 terminals — find every terminal, turn your Expert Advisor `.set` files into ready-to-load chart profiles, and keep a full history of every deployment.
+Keep all your MetaTrader 5 terminals in one place. See which ones are running and where trading is enabled, and turn your Expert Advisor `.set` files into chart profiles that are ready to load.
 
-**Website:** [trendsurfers.io](https://trendsurfers.io/)
+[**Download the latest version**](https://github.com/trendsurfers-software/terminal-manager/releases/latest) · [trendsurfers.io](https://trendsurfers.io/)
 
----
-
-## What Is It?
-
-**TrendSurfers Terminal Manager** is a companion app for MetaTrader 5 traders who run one or more terminals. Instead of clicking through each MT5 install by hand, Terminal Manager gives you a single dashboard to find and manage your terminals, import folders of Expert Advisor `.set` files, and deploy them as ready-to-load chart profiles — with a full record of what was deployed, where, and when.
-
-Terminal Manager is **completely free** to use.
+<p align="center">
+  <img src="pictures/home.png" alt="The Home page of Terminal Manager showing five terminals, which are running, where trading is enabled, deployed strategies and storage" width="860"/>
+</p>
 
 ---
+
+## What it is
+
+**Terminal Manager** is a free Windows app for traders who run one or more MetaTrader 5 terminals. It finds the terminals on your computer, shows how each one is doing, and helps you put Expert Advisor settings onto your charts without clicking through every terminal by hand. It also keeps a record of what was deployed, where and when.
+
+Terminal Manager is free to use. Features that are free today may become paid in a future version; a feature that is free in the version you have installed stays free in that version.
+
+## What you can do
+
+- **Find every terminal.** Scan your computer for MetaTrader 5 installations, portable and standard, and add them to one list.
+- **See the whole picture on Home.** How many terminals are running, where trading is enabled, which ones need attention, how many strategies are deployed and how full your drives are. Search by terminal, broker, profile or tag. Trading status and account checks need **Monitor account balances** turned on in Settings.
+- **Tag your terminals.** Mark them "prop", "demo" or "VPS 2" and filter by tag.
+- **Start terminals automatically.** Switch on Autostart for the terminals you want. Terminal Manager opens them when it starts and tells you if one has stopped.
+- **Check the account.** Set the account a terminal should be using, and Terminal Manager tells you if it ever changes.
+- **Go from `.set` files to charts.** Add your `.set` files, pick the Expert Advisor, symbol and timeframe for each one (or set them for all files at once), and deploy them as a chart profile.
+- **Deploy with safety checks.** A deployment stops when a symbol does not exist at the terminal's broker, and you are warned about clashing magic numbers and before strategies are written to a live account. If a deployment cannot be finished, your profile is put back as it was.
+- **Back up and restore.** Every deployment keeps a backup of the whole profile, and you can restore one whenever you need to.
+- **Keep a history.** A record of every deployment: terminal, profile, Expert Advisor, symbol, timeframe and the `.set` file it came from.
+- **Light and dark themes**, your own time zone for every time shown, and an optional start with Windows.
 
 ## Screenshots
 
 <p align="center">
-  <img src="pictures/terminals.png" alt="Terminals — find and manage every MetaTrader 5 install" width="720"/>
-  <br/><em>Terminals — find and manage every MetaTrader 5 install</em>
+  <img src="pictures/terminals.png" alt="Allowed Terminals list with status, tags, broker and autostart for each terminal" width="860"/>
+  <br/><em>Terminals: every terminal in one list, with status, broker, tags and Autostart</em>
 </p>
 
 <p align="center">
-  <img src="pictures/manager-add.png" alt="Manager — import .set files and assign EA, symbol, and timeframe" width="720"/>
-  <br/><em>Manager — import .set files and assign EA, symbol, and timeframe with searchable dropdowns</em>
+  <img src="pictures/workspace.png" alt="Terminal workspace showing the account status and the charts of the Default profile" width="860"/>
+  <br/><em>Terminal workspace: account status and the charts on a profile</em>
 </p>
 
 <p align="center">
-  <img src="pictures/manager-deploy.png" alt="Manager — deploy as a ready-to-load chart profile" width="720"/>
-  <br/><em>Manager — deploy as a ready-to-load chart profile in a few clicks</em>
+  <img src="pictures/add-strategies.png" alt="Add strategies page with three .set files and their Expert Advisor, symbol and timeframe" width="860"/>
+  <br/><em>Add strategies: choose the Expert Advisor, symbol and timeframe for each .set file, then deploy</em>
 </p>
 
 <p align="center">
-  <img src="pictures/deployment-history.png" alt="Deployment History — a full record of every deployment" width="720"/>
-  <br/><em>Deployment History — a full, traceable record of what was deployed, where, and when</em>
+  <img src="pictures/history.png" alt="Deployment history listing time, terminal, profile, Expert Advisor, symbol and timeframe" width="860"/>
+  <br/><em>History: what was deployed, where and when</em>
 </p>
 
 <p align="center">
-  <img src="pictures/settings.png" alt="Settings — scan depth, theme, startup, and preview updates" width="720"/>
-  <br/><em>Settings — scan depth, theme, start-with-Windows, and the preview-update channel</em>
+  <img src="pictures/home-light.png" alt="The Home page in the light theme" width="860"/>
+  <br/><em>Home in the light theme</em>
 </p>
 
----
+<p align="center">
+  <img src="pictures/settings.png" alt="Settings page with appearance, startup and general options" width="860"/>
+  <br/><em>Settings: theme, time zone, startup and updates</em>
+</p>
 
-## Core Features
-
-### 🖥️ Terminal Management
-- Scan your machine for MetaTrader 5 installations — portable and standard installs alike.
-- See every terminal in one dashboard and add the ones you want to manage.
-
-### 📥 Import, Assign & Deploy
-- Import your Expert Advisor `.set` files.
-- Pick the EA, symbol, and timeframe with smart, searchable dropdowns — bulk-assign across multiple files at once.
-- Deploy the result as a ready-to-load chart profile to any managed terminal, in a few clicks.
-
-### 🧾 Deployment History
-- A full, traceable record of every deployment.
-- See terminal, profile, EA, symbol, timeframe, and the exact `.set` file it came from — for every deployment, every time.
-
-### 🔄 Automatic Updates
-- Terminal Manager keeps itself current in the background — no manual downloads.
-- Enable the preview channel in Settings for early access to new features before general release.
+The screenshots show sample terminals and demo accounts.
 
 ---
 
-## System Requirements
+## Download and install
 
-- **Operating System**: Windows 10 or Windows 11 (64-bit)
-- **MetaTrader 5**: One or more installed terminals
+1. Download the installer, `TS.TerminalManager-win-Setup.exe`, from the [latest release](https://github.com/trendsurfers-software/terminal-manager/releases/latest). A portable `.zip` is there too.
+2. Run the installer and open **Terminal Manager**.
+3. Scan for your terminals and add the ones you want to manage.
 
----
+Terminal Manager checks for a new version each time it starts and shows a banner. You choose when to download and install it. To try preview versions before they are released to everyone, turn on **Receive preview updates** in Settings.
 
-## Installation
+## System requirements
 
-1. Download the latest `TS.TerminalManager-win-Setup.exe` from [Releases](../../releases).
-2. Run the installer. Terminal Manager installs per-user and updates itself automatically.
-3. Launch **Terminal Manager** and add your first MetaTrader 5 terminal.
+- Windows 10 (version 1809 or later) or Windows 11, 64-bit
+- MetaTrader 5
 
-### Preview builds
+## Licence and privacy
 
-Want early access to new features? In **Settings → Receive preview updates**, enable preview updates to receive pre-release builds before general availability. Uncheck it at any time to return to the stable channel on the next update check.
+By installing or using Terminal Manager you agree to the End User License Agreement. Terminal Manager asks you to accept it the first time it starts.
 
----
+| Document | Link |
+|----------|------|
+| End User License Agreement | [trendsurfers.io/eula-mtm/](https://trendsurfers.io/eula-mtm/) |
+| Privacy Policy | [trendsurfers.io/privacy/](https://trendsurfers.io/privacy/) |
+| Legal Notice | [trendsurfers.io/legal/](https://trendsurfers.io/legal/) |
+| Trademark Notices | [trendsurfers.io/legal/#trademarks](https://trendsurfers.io/legal/#trademarks) |
 
-## Contact & Community
+## Support and community
 
 | Channel | Link |
 |---------|------|
-| Website | [trendsurfers.io](https://trendsurfers.io/) |
+| Questions and support | [hello@trendsurfers.io](mailto:hello@trendsurfers.io) |
+| Bugs and requests | [GitHub issues](https://github.com/trendsurfers-software/terminal-manager/issues) |
 | Discord | [discord.gg/3HnQDZ5hT5](https://discord.gg/3HnQDZ5hT5) |
 | Telegram | [Community group](https://t.me/+GyaH3OhxW802N2I0) |
-| General / Support | [hello@trendsurfers.io](mailto:hello@trendsurfers.io) |
 | Legal | [legal@trendsurfers.io](mailto:legal@trendsurfers.io) |
 
----
+## What is new
 
-## License
-
-Terminal Manager is free to use. By downloading, installing, or using this software you agree to the [End User License Agreement](https://trendsurfers.io/eula-mtm/). If you do not accept the EULA, do not install or use the software.
-
-| Legal document | Link |
-|---------------|------|
-| End User License Agreement (EULA) | [trendsurfers.io/eula-mtm/](https://trendsurfers.io/eula-mtm/) |
-| Privacy Policy | [trendsurfers.io/privacy/](https://trendsurfers.io/privacy/) |
-| Legal Notice (Aviso Legal) | [trendsurfers.io/legal/](https://trendsurfers.io/legal/) |
-| Trademark Notices | [trendsurfers.io/legal/#trademarks](https://trendsurfers.io/legal/#trademarks) |
+See [CHANGELOG.md](CHANGELOG.md) and the [releases](https://github.com/trendsurfers-software/terminal-manager/releases).
 
 ---
 
-## Legal Notices
+## Legal notices
 
-### Trademark Disclaimers
+**Terminal Manager** is an independent product developed by **INFINITYDEV, S.L.** (NIF B-44974798, Plaça Jardí Enric Morera 2, Bajos, 17600 Figueres, Girona, Spain).
 
-**TrendSurfers Terminal Manager** is an independent product developed by **INFINITYDEV, S.L.** (NIF B-44974798, Plaça Jardí Enric Morera 2, Bajos, 17600 Figueres, Girona, Spain).
-
-INFINITYDEV, S.L. is **not** affiliated with, endorsed by, sponsored by, certified by, or otherwise connected to MetaQuotes Ltd or any of its affiliated entities. This product is not approved by MetaQuotes, and MetaQuotes provides no warranty, support, or representation regarding it.
+INFINITYDEV, S.L. is not affiliated with, endorsed by, sponsored by, certified by, or otherwise connected to MetaQuotes Ltd or any of its affiliated entities. This product is not approved by MetaQuotes, and MetaQuotes provides no warranty, support, or representation regarding it.
 
 "MetaTrader", "MetaTrader 4", "MetaTrader 5", "MT4", "MT5", "MQL4", and "MQL5" are registered trademarks of MetaQuotes Ltd and/or its affiliated entities. All other product names, trademarks, service marks, and registered trademarks referenced in this software or its accompanying materials are the property of their respective owners and are used solely for identification and descriptive purposes. Such use does not imply endorsement, sponsorship, or any affiliation between INFINITYDEV, S.L. and the trademark holders.
 
-### Trading Risk Disclaimer
+**Trading risk.** Trading foreign exchange and derivatives carries a high level of risk and may not be suitable for all investors. Past performance is not indicative of future results. Terminal Manager is a terminal-management tool. It deploys Expert Advisor configurations to your own MetaTrader 5 terminals and can read basic account information from them when account monitoring is on. It does not place trades, and it does not provide financial advice or trading signals.
 
-Trading foreign exchange and derivatives carries a high level of risk and may not be suitable for all investors. Past performance is not indicative of future results. Terminal Manager is a terminal-management tool — it deploys Expert Advisor configurations to your own MetaTrader 5 terminals but does not place trades, connect to live broker accounts, or provide financial advice or trading signals.
+**Platform dependency.** Terminal Manager operates on your own MetaTrader 5 installations and depends on specific MetaTrader 5 capabilities for its operation, including terminal detection, chart-profile formats, and `.set` file formats. MetaQuotes Ltd is an independent third party over which INFINITYDEV, S.L. has no control. MetaQuotes may, at any time, modify, restrict, deprecate, or remove any MetaTrader 5 capability. Such changes may cause parts or all of this software to stop functioning. This does not constitute a defect in the software, and INFINITYDEV, S.L. assumes no responsibility for changes made by MetaQuotes or any other third-party platform.
 
-### Platform Dependency Notice
-
-Terminal Manager operates on your own MetaTrader 5 installations and depends on specific MT5 capabilities for its operation (including terminal detection, chart-profile formats, and `.set` file formats). MetaQuotes Ltd is an independent third party over which INFINITYDEV, S.L. has no control. MetaQuotes may, at any time, modify, restrict, deprecate, or remove any MT5 capability. Such changes may cause parts or all of this software to stop functioning. This does not constitute a defect in the software, and INFINITYDEV, S.L. assumes no responsibility for changes made by MetaQuotes or any other third-party platform.
-
-&copy; 2024–2026 INFINITYDEV, S.L. All rights reserved.
+&copy; 2024-2026 INFINITYDEV, S.L. All rights reserved.
