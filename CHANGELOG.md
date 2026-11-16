@@ -14,7 +14,7 @@ Hear about your terminals on your phone.
 - **A clearer update banner** for anyone who leaves the preview channel.
 - **Many smaller fixes.**
 
-The full notes for this version, including the Schedule A revision for Terminal Manager 1.1, are on the [1.1.0 release](../../releases/tag/v1.1.0).
+The full notes for this version are on the [1.1.0 release](../../releases/tag/v1.1.0). The Schedule A revision for Terminal Manager 1.1 is on the [License Agreement page](https://trendsurfers.io/eula-tm/#schedule-a-revision-1-1).
 
 ---
 
